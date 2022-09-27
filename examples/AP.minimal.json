@@ -1,0 +1,14 @@
+{
+    "policyType": "PerSession",
+    "name": "apb1",
+    "profileType": "ltm-apm",
+    "policy": {
+        "objectContent": {
+            "start":{
+                "caption":"fallback",
+                "itemType":"allow",
+                "name":"Allow"
+            }
+        }
+    }
+}
